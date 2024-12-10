@@ -1,0 +1,39 @@
+{
+  "name": "react-bento-box",
+  "version": "1.0.5",
+  "description": "Bento box layouts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keatonlees/react-bento-box.git"
+  },
+  "keywords": [
+    "bento",
+    "box"
+  ],
+  "author": "Keaton Lees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keatonlees/react-bento-box/issues"
+  },
+  "homepage": "https://github.com/keatonlees/react-bento-box#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^19.0.1",
+    "react": "^19.0.0",
+    "rollup": "^4.28.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  }
+}
