@@ -1,0 +1,8 @@
+.bento-box-item {
+  border-radius: 10px;
+  padding: 16px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
