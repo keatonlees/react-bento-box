@@ -1,18 +1,17 @@
-React Bento Box
-===============
+# React Bento Box
 
 A React library for creating bento box layouts
 
-Install
--------
+## Install
+
 ```shell
 npm install react-bento-box
 ```
 
-Usage
------
+## Usage
 
 ### BentoBoxContainer
+
 The container that will contain your components. BentoBoxContainer will fill the full width and height of the parent component.
 
 ```javascript
@@ -36,6 +35,7 @@ gap?: "sm" | "md" | "lg" | "xl"; // (optional, default "md") spacing between Ben
 ```
 
 ### BentoBoxItem
+
 Must be in a BentoBoxContainer. The individual items that will make up the parts of your bento box. Endless possible layouts.
 
 ```javascript
@@ -59,6 +59,7 @@ shadowColor?: string; // (optional) changes the color of the shadow
 ```
 
 ### CornerButton
+
 Must be in a BentoBoxItem. Useful component for embedded buttons in the BentoBoxItem.
 
 ```javascript
@@ -77,12 +78,11 @@ import { Corner Button } from "react-bento-box";
 gap?: "sm" | "md" | "lg"; // (optional, default "md") size of the button
 ```
 
-Examples
---------
+## Examples
 
 ### Small Layout
 
-![alt text](https://github.com/keatonlees/react-bento-box/blob/master/small-layout.png "Small Layout")
+![alt text](https://github.com/keatonlees/react-bento-box/blob/master/src/images/small-layout.png "Small Layout")
 
 ```javascript
 import { BentoBoxContainer, BentoBoxItem, CornerButton } from "react-bento-box";
@@ -126,7 +126,7 @@ function App() {
           </div>
         </BentoBoxItem>
       </BentoBoxContainer>
-   </div>
+    </div>
   );
 }
 
@@ -135,7 +135,7 @@ export default App;
 
 ### Large Layout
 
-![alt text](https://github.com/keatonlees/react-bento-box/blob/master/large-layout.png "Large Layout")
+![alt text](https://github.com/keatonlees/react-bento-box/blob/master/src/images/large-layout.png "Large Layout")
 
 ```javascript
 import { BentoBoxContainer, BentoBoxItem, CornerButton } from "react-bento-box";
