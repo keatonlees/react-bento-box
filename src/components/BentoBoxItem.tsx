@@ -9,6 +9,7 @@ const BentoBoxItem = ({
   size = [1, 1],
   shadow = false,
   shadowColor = "grey",
+  ...props
 }: {
   children: React.ReactNode;
   className?: string;
@@ -25,6 +26,7 @@ const BentoBoxItem = ({
         gridColumn: `${start[1] + 1} / span ${size[1]}`,
         boxShadow: shadow ? `4px 4px 8px ${shadowColor}` : "none",
       }}
+      {...props}
     >
       <div style={{ width: "100%", height: "100%" }}>{children}</div>
     </div>

@@ -1,7 +1,7 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 import React from 'react';
 
-declare const BentoBoxContainer: ({ children, className, rows, cols, gap, }: {
+declare const BentoBoxContainer: ({ children, className, rows, cols, gap, ...props }: {
     children: React.ReactNode;
     className?: string;
     rows: number;
@@ -9,7 +9,7 @@ declare const BentoBoxContainer: ({ children, className, rows, cols, gap, }: {
     gap?: "sm" | "md" | "lg" | "xl";
 }) => react_jsx_runtime.JSX.Element;
 
-declare const BentoBoxItem: ({ children, className, start, size, shadow, shadowColor, }: {
+declare const BentoBoxItem: ({ children, className, start, size, shadow, shadowColor, ...props }: {
     children: React.ReactNode;
     className?: string;
     start: number[];
@@ -18,12 +18,9 @@ declare const BentoBoxItem: ({ children, className, start, size, shadow, shadowC
     shadowColor?: string;
 }) => react_jsx_runtime.JSX.Element;
 
-declare const CornerButton: ({ onClick, children, className, backgroundColor, color, size, }: {
-    onClick: () => void;
+declare const CornerButton: ({ children, className, size, ...props }: {
     children: React.ReactNode;
     className?: string;
-    backgroundColor?: string;
-    color?: string;
     size?: "sm" | "md" | "lg";
 }) => react_jsx_runtime.JSX.Element;
 

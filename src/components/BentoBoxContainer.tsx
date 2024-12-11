@@ -8,6 +8,7 @@ const BentoBoxContainer = ({
   rows,
   cols,
   gap = "md",
+  ...props
 }: {
   children: React.ReactNode;
   className?: string;
@@ -36,6 +37,7 @@ const BentoBoxContainer = ({
         gridTemplateRows: `repeat(${rows}, 1fr)`,
         gridTemplateColumns: `repeat(${cols}, 1fr)`,
       }}
+      {...props}
     >
       {children}
     </div>
