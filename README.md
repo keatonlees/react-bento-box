@@ -81,6 +81,9 @@ Examples
 --------
 
 ### Small Layout
+
+![alt text](https://github.com/keatonlees/react-bento-box/blob/master/small-layout.png "Small Layout")
+
 ```javascript
 import { BentoBoxContainer, BentoBoxItem, CornerButton } from "react-bento-box";
 import "./App.css";
@@ -131,6 +134,9 @@ export default App;
 ```
 
 ### Large Layout
+
+![alt text](https://github.com/keatonlees/react-bento-box/blob/master/large-layout.png "Large Layout")
+
 ```javascript
 import { BentoBoxContainer, BentoBoxItem, CornerButton } from "react-bento-box";
 import "./App.css";
